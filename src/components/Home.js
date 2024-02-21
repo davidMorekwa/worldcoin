@@ -29,7 +29,7 @@ export const Index = ({personalInfo, setPersonalInfo, navigate}) => {
         <form
             className="flex sm:ml-0  sm:mr-0 sm:w-full flex-col justify-center items-center pt-[1px] h-[100vh] w-full "
         >
-            <h1 className="w-[450px] sm:w-full sm:text-5xl md:text-6xl text-center">
+            <h1 className="w-[450px] sm:w-full sm:text-5xl text-6xl text-center">
                 Effortlessly sell Your worldcoins
             </h1>
             <br />
