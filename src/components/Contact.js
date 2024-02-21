@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className="flex flex-row h-[90vh] justify-center items-center">
+    <div className="flex flex-row md:flex-col-reverse md:p-2 h-[90vh] justify-center items-center">
             <div >
                   <p className="text-gray-400">NEED HELP?</p>
                   <br/>

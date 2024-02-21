@@ -29,7 +29,7 @@ const Address = () => {
     }
     return (
         <div className="w-full h-[100vh] bg-gray-100 flex flex-col justify-center items-center">
-            <div className="bg-white w-1/4 p-4 rounded-2xl flex flex-col justify-around items-center h-2/3">
+            <div className="bg-white lg:w-1/4 md:w-full p-4 rounded-2xl flex flex-col justify-around items-center h-2/3">
                 <p className="text-center w-[85%] font-light">
                     Send worldcoin tokens to the addess below
                 </p>

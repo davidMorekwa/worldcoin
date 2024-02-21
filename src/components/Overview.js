@@ -10,7 +10,7 @@ const Overview = ({personalInfo}) => {
             <h1 className="text-center text-5xl">Sell your worldcoins</h1>
             <br />
             <div className="w-full bg-gray-100 h-[80vh] flex flex-col justify-center items-center">
-                <div className="bg-white w-1/3 h-[85%] rounded-3xl p-8">
+                <div className="bg-white lg:w-1/3 sm:w-3/3 md:w-3/3 h-[85%] rounded-3xl p-8 md:p-7">
                     <div className="flex flex-row justify-between items-center">
                         <div className="flex flex-row justify-between items-center">
                             <a href="/">
@@ -64,18 +64,18 @@ const Overview = ({personalInfo}) => {
                         <span className="font-light">WLD</span>
                     </div>
                     <br />
-                    <div className="border-t border-solid p-3">
-                        <div className="flex flex-row justify-between items-center my-3">
+                    <div className="border-t border-solid p-3 md;p-2 sm:w-full md:w-full">
+                        <div className="flex flex-row justify-between items-center my-3 md:w-3/3">
                             <span className="font-light text-sm text-gray-500">
                                 Email Address
                             </span>
-                            <span>{info.email}</span>
+                            <span className="text-sm text-wrap md:w-3/4 sm:w-2/3">{info.email}davenyamongo16@gmail.com</span>
                         </div>
                         <div className="flex flex-row justify-between items-center my-3">
                             <span className="font-light text-sm text-gray-500">
                                 Phone Number
                             </span>
-                            <span>{info.phone_number}</span>
+                            <span className="text-sm text-wrap md:w-3/4 sm:w-2/3">{info.phone_number}</span>
                         </div>
                         <div className="flex flex-row justify-between items-center my-3">
                             <span className="font-light text-sm text-gray-500">

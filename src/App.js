@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import { Index } from "./components/Index";
+import { Index } from "./components/Home";
 import Overview from "./components/Overview";
 import Address from "./components/Address";
 import { Success } from "./components/Success";

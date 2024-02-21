@@ -27,13 +27,13 @@ export const Index = ({personalInfo, setPersonalInfo, navigate}) => {
     }
     return (
         <form
-            className="flex flex-col justify-center items-center pt-[1px] h-[100vh] w-full "
+            className="flex sm:ml-0  sm:mr-0 sm:w-full flex-col justify-center items-center pt-[1px] h-[100vh] w-full "
         >
-            <h1 className="w-[450px] text-6xl text-center">
+            <h1 className="w-[450px] sm:w-full sm:text-5xl md:text-6xl text-center">
                 Effortlessly sell Your worldcoins
             </h1>
             <br />
-            <div className="w-[26%] p-2">
+            <div className="lg:w-[26%] sm:w-full p-2">
                 <p className="w-full text-center text-[12px] text-gray-400 font-light">
                     Turn your Worldcoins into cash effortlessly! Sell your
                     crypto with easee and get paid via Mpesa or Payal for a
