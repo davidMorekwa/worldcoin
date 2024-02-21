@@ -60,7 +60,7 @@ const Overview = ({personalInfo}) => {
                     {/* TODO: Amount */}
                     <br />
                     <div className="flex flex-row justify-between items-center">
-                        <span className="font-light">Amounnt</span>
+                        <span className="font-light">Amount</span>
                         <span className="font-light">WLD</span>
                     </div>
                     <br />
@@ -69,7 +69,7 @@ const Overview = ({personalInfo}) => {
                             <span className="font-light text-sm text-gray-500">
                                 Email Address
                             </span>
-                            <span className="text-sm text-wrap md:w-3/4 sm:w-2/3">{info.email}davenyamongo16@gmail.com</span>
+                            <span className="text-sm text-wrap md:w-3/4 sm:w-2/3">{info.email}</span>
                         </div>
                         <div className="flex flex-row justify-between items-center my-3">
                             <span className="font-light text-sm text-gray-500">
