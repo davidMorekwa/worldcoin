@@ -5,6 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    screens:{
+      sm: {'max':'400px'},
+      md: {'max': '699px'},
+      lg: {'min': '700px'},
+      xlg:{'min': '1000px'}
+    }
   },
   plugins: [],
 }
